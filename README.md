@@ -121,6 +121,8 @@ Run locally:
 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
+The [GitHub Actions test workflow](.github/workflows/tests.yml) runs the same public unit suite on pushes and pull requests. Hosted execution will be validated after publication.
+
 ## Known limitations
 
 Key non-claims include no IaC, CORS, application JWT verification, Cognito-claim consumption, current DynamoDB persistence, RAG/vector database, live AWS integration tests, deployment automation, load testing, formal SLOs, or disaster-recovery implementation.

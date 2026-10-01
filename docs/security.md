@@ -92,12 +92,20 @@ The underlying private engineering project includes a more extensive fail-closed
 
 ## Public-release checklist
 
-- [ ] No account identifiers, ARNs, endpoints, domains, resource identifiers, or personal information
-- [ ] No credentials, tokens, secret values, or local environment files
-- [ ] No production prompts, responses, logs, screenshots, or customer data
-- [ ] No private repository paths, history, tags, or commit identifiers
-- [ ] Evidence labels agree across the README, status matrix, and architecture
-- [ ] Unit tests pass without AWS access
-- [ ] Dependency and secret scans are clean
-- [ ] Mermaid source contains only generic service labels
+Locally verified:
+
+- [x] No account identifiers, ARNs, endpoints, domains, resource identifiers, or personal information
+- [x] No credentials, tokens, secret values, or local environment files
+- [x] No production prompts, responses, logs, screenshots, or customer data
+- [x] No private repository paths, history, tags, or commit identifiers
+- [x] Evidence labels agree across the README, status matrix, and architecture
+- [x] Unit tests pass without AWS access
+- [x] Locally installed secret scanner reports no findings
+- [x] Mermaid source contains only generic service labels
+- [ ] Dependency vulnerability review is complete
+
+Pending after GitHub publication:
+
+- [ ] GitHub-hosted Actions test workflow completes successfully
+- [ ] GitHub-native Mermaid rendering is visually verified
 
