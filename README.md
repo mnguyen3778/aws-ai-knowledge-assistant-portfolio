@@ -121,7 +121,7 @@ Run locally:
 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
-The [GitHub Actions test workflow](.github/workflows/tests.yml) runs the same public unit suite on pushes and pull requests. Hosted execution will be validated after publication.
+The [GitHub Actions test workflow](.github/workflows/tests.yml) runs the same public 22-test unit suite on pushes and pull requests. Hosted execution was successfully validated on GitHub.
 
 ## Known limitations
 

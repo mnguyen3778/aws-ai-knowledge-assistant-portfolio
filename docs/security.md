@@ -106,6 +106,6 @@ Locally verified:
 
 Pending after GitHub publication:
 
-- [ ] GitHub-hosted Actions test workflow completes successfully
-- [ ] GitHub-native Mermaid rendering is visually verified
+- [x] GitHub-hosted Actions test workflow completed successfully on push using CPython 3.11.16; package installation succeeded and all 22 tests passed (`OK`)
+- [x] GitHub-native Mermaid rendering was verified through human visual inspection
 
