@@ -33,7 +33,7 @@ This is a curated portfolio representation, not a complete production system or 
 | Authentication | **CONFIGURED AND VALIDATED IN AWS CONSOLE** | Cognito authorizer boundary; no application JWT verification claim |
 | Authorization | **ARCHITECTURE / PROTOTYPE EXPOSURE** | [Private authorization boundary](docs/security.md#private-authorization-boundary) |
 | CORS | **KNOWN LIMITATION** | Not implemented |
-| Targeted unit testing | **IMPLEMENTED AND TESTED** | [`tests/`](tests/) — 14 tests |
+| Targeted unit testing | **IMPLEMENTED AND TESTED** | [`tests/`](tests/) — 22 tests |
 | Production readiness | **KNOWN LIMITATION** | Selected production-readiness foundations are demonstrated; this is not a production deployment |
 
 The complete capability-by-capability matrix is in [Implementation Status](docs/implementation-status.md).
@@ -113,7 +113,7 @@ See [Security](docs/security.md) for trust boundaries, non-claims, known gaps, a
 
 ## Testing
 
-The portfolio currently contains **14 passing unit tests**. They exercise validation, deterministic responses, routing, Bedrock request/response mapping, and provider failures. Tests use fakes or injected stubs and do not call AWS.
+The portfolio currently contains **22 passing unit tests**. They exercise validation, deterministic responses, routing, Bedrock request/response mapping, and provider failures. Tests use fakes or injected stubs and do not call AWS.
 
 Run locally:
 

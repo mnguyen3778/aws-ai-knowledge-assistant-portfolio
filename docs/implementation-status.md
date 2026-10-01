@@ -36,7 +36,7 @@ This matrix is the authoritative boundary between public implementation evidence
 | Authentication | **CONFIGURED AND VALIDATED IN AWS CONSOLE** | Authentication was enforced at the API Gateway Cognito-authorizer boundary; no application JWT-verification claim is made. |
 | Authorization | **ARCHITECTURE / PROTOTYPE EXPOSURE** | See [Private authorization boundary](security.md#private-authorization-boundary). |
 | CORS | **KNOWN LIMITATION** | No CORS response headers, policy, or tests exist in the public implementation. |
-| Targeted unit tests | **IMPLEMENTED AND TESTED** | Four test modules currently provide 14 passing tests without AWS calls. |
+| Targeted unit tests | **IMPLEMENTED AND TESTED** | Four test modules currently provide 22 passing tests without AWS calls. |
 | Production readiness | **KNOWN LIMITATION** | The repository demonstrates selected production-readiness foundations, not a production deployment or production-ready system. |
 
 ## Architecture / prototype exposure
