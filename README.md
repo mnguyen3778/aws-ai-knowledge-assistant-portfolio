@@ -40,6 +40,14 @@ The complete capability-by-capability matrix is in [Implementation Status](docs/
 
 ## Architecture
 
+### Portfolio Architecture & Validation Evidence
+
+The diagram below provides a recruiter-facing overview of what is implemented and tested in this repository, what was configured and validated in the AWS console, and what remains prototype or out of scope.
+
+![AWS AI Knowledge Assistant portfolio architecture and validation evidence](docs/architecture/AWS_AI_Knowledge_Diagram.PNG)
+
+The Mermaid diagram below remains the repository-native architecture representation.
+
 The colors distinguish repository evidence from console experience and historical prototype work.
 
 ```mermaid
@@ -149,4 +157,3 @@ docs/architecture/         GitHub-rendered Mermaid architecture source
 ## Privacy and IP note
 
 This repository is a deliberately curated public portfolio. Live infrastructure identifiers, private engineering history, business-specific implementation details, and proprietary material are intentionally excluded.
-
